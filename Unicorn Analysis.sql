@@ -78,11 +78,11 @@ FROM Unicorns.unicorn_companies
 GROUP BY country, industry
 ORDER BY country_rank;
 
--- Asian cities with valuations
+-- Asian cities with valuations (Tableau 2) 
 Select country, city, valuation
 FROM Unicorns.unicorn_companies
 WHERE continent = 'Asia'
-ORDER BY Valuation DESC; 
+ORDER BY Valuation DESC;
 
 -- Unicorns in the Netherlands
 Select *
@@ -99,7 +99,7 @@ Select company, year_founded,
 FROM Unicorns.unicorn_companies
 ORDER BY year_founded;
 
--- Which city has the most number of companies (San Francisco with 152)
+-- Which city has the most number of companies (San Francisco with 152) (Tableau 2) 
 
 Select city, 
        COUNT(*) AS num_companies
@@ -132,7 +132,7 @@ ORDER BY funding DESC
 LIMIT 10; 
 
 -- List of continents and funding amounts for which there are multiple companies
-SELECT continent, funding, COUNT(company)
+SELECT continent, funding, COUNT(company)AS numberoftimes
 FROM Unicorns.unicorn_companies
 WHERE funding <> 'Unknown'
 GROUP BY continent, funding
@@ -143,7 +143,7 @@ Select COUNT(company)
 FROM Unicorns.unicorn_companies
 WHERE country = 'India';
 
--- Cities with number of companies with valuation of $1 billion 
+-- Cities with number of companies with valuation of $1 billion (Tableau 2)
 Select city, COUNT(*)AS num_companies
 FROM Unicorns.unicorn_companies
 WHERE valuation = '$1B'
@@ -157,7 +157,7 @@ FROM Unicorns.unicorn_companies
 GROUP BY city, valuation
 HAVING COUNT(*) > 1;
 
--- Top 5 Companies based in San Francisco who got the highest funding and have a valuation over 30B 
+-- Top 5 Companies based in San Francisco who got the highest funding and have a valuation over 30B (Tableau 2) 
 
 Select company,
        MAX(funding) AS funding_received,
@@ -185,3 +185,76 @@ SELECT COUNT(DISTINCT(select_investors))/
             FROM Unicorns.unicorn_companies) AS num_companies 
 	FROM Unicorns.unicorn_companies; 
     
+-- Number of Unicorns from Europe & which city has the highest unicorns (Tableau 2) 
+
+SELECT country,
+       city,
+       COUNT(company) AS maximum_company 
+FROM Unicorns.unicorn_companies
+WHERE continent = 'Europe'
+GROUP BY country,city
+ORDER BY maximum_company DESC; 
+
+-- Funding of companies that were founded between 2012 to 2022
+Select company,city,funding
+FROM Unicorns.unicorn_companies
+WHERE year_founded BETWEEN 2012 AND 2022 AND funding <> 'Unknown'
+ORDER BY funding DESC;
+
+
+-- Subquqery to find out companies that were funded between 2012 - 2022 from the city of 
+-- San Francisco
+
+Select company,funding
+FROM (Select company,city,funding
+FROM Unicorns.unicorn_companies
+WHERE year_founded BETWEEN 2012 AND 2022 AND funding <> 'Unknown'
+ORDER BY funding DESC) AS company_foundedbetween_2012_2022
+WHERE city = 'San Francisco'
+GROUP BY company, funding 
+ORDER BY funding DESC;
+
+-- Maximum funding achieved by companies between 2012 - 2022, who were the investors
+Select company, select_investors, MAX(funding) AS max_funding 
+FROM Unicorns.unicorn_companies
+WHERE year_founded BETWEEN 2012 AND 2022
+GROUP BY company, select_investors
+ORDER BY max_funding DESC;
+
+-- How many companies had 'other' as a indsutry (58 companies are in other indsutries) 
+Select industry, COUNT(*)
+FROM Unicorns.unicorn_companies
+WHERE industry = 'other'
+GROUP BY industry;
+
+-- Value of funding found in Asia
+Select city, funding
+FROM Unicorns.unicorn_companies
+WHERE continent = 'Asia'
+GROUP BY city, funding
+ORDER BY funding DESC;
+
+-- Difference in funding between India & china (not ecaxtly what I want)
+Select country,funding, COUNT(*)
+FROM Unicorns.unicorn_companies
+GROUP BY country, funding
+HAVING country IN ('China', 'India')
+ORDER BY COUNT(*) DESC; 
+
+-- Oldest european city to have a unicorn
+Select company,country, city, MIN(year_founded) AS earliest_date
+FROM Unicorns.unicorn_companies
+GROUP BY company, country, city 
+ORDER BY earliest_date
+LIMIT 1;
+
+-- Rank companies according to their valuation per continent
+Select company, continent, valuation,
+       DENSE_RANK () OVER (ORDER BY valuation DESC) 
+FROM Unicorns.unicorn_companies
+GROUP BY continent, company, valuation;
+
+-- 
+
+
+

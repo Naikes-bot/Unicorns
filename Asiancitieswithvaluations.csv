@@ -1,0 +1,311 @@
+country,city,valuation
+"South Korea",Seoul,$9B
+"South Korea",Seoul,$9B
+India,Bengaluru,$8B
+China,Shenzhen,$8B
+India,Mumbai,$8B
+China,Beijing,$7B
+"South Korea",Seoul,$7B
+India,Bengaluru,$7B
+India,Bengaluru,$7B
+China,Beijing,$7B
+India,Mumbai,$7B
+Israel,"Tel Aviv",$6B
+China,Beijing,$6B
+China,Changzhou,$6B
+China,Hangzhou,$6B
+China,Beijing,$6B
+India,Gurgaon,$5B
+India,Bengaluru,$5B
+India,Noida,$5B
+China,Shanghai,$5B
+China,Zhuhai,$5B
+China,Shanghai,$5B
+India,Bengaluru,$5B
+India,Bengaluru,$5B
+Israel,"Tel Aviv",$5B
+China,Guangzhou,$5B
+China,Shenzhen,$5B
+China,Beijing,$5B
+China,Shenzhen,$5B
+China,Beijing,$5B
+China,Suzhou,$4B
+Singapore,,$4B
+"South Korea",Seoul,$4B
+India,Faridabad,$4B
+China,Beijing,$4B
+China,Guangzhou,$4B
+India,Bengaluru,$4B
+China,Chengdu,$4B
+China,Shanghai,$4B
+China,Beijing,$4B
+India,Bengaluru,$3B
+India,Bengaluru,$3B
+China,Shanghai,$3B
+India,Bengaluru,$3B
+India,Gurgaon,$3B
+Israel,"Tel Aviv",$3B
+India,Mumbai,$3B
+India,"New Delhi",$3B
+India,Bengaluru,$3B
+"Hong Kong",,$3B
+India,Gurgaon,$3B
+India,Bengaluru,$3B
+China,Dongguan,$3B
+Vietnam,"Ho Chi Minh City",$3B
+China,Hangzhou,$3B
+Indonesia,Jakarta,$3B
+China,Shenzhen,$3B
+"South Korea",Seoul,$3B
+Singapore,,$3B
+India,Mumbai,$3B
+"United Arab Emirates",Dubai,$3B
+China,Beijing,$3B
+China,Shenzhen,$3B
+Singapore,,$3B
+China,Nanjing,$3B
+Israel,"Tel Aviv",$3B
+India,Thane,$3B
+India,Mumbai,$3B
+China,Shenzhen,$2B
+China,Shanghai,$2B
+China,Shanghai,$2B
+China,Beijing,$2B
+China,Beijing,$2B
+China,Beijing,$2B
+Philippines,"Taguig City",$2B
+Japan,Tokyo,$2B
+Japan,Tokyo,$2B
+Israel,Netanya,$2B
+"Hong Kong",Kowloon,$2B
+China,Chengdu,$2B
+Indonesia,Jakarta,$2B
+Singapore,,$2B
+China,Beijing,$2B
+China,Shenzhen,$2B
+China,Beijing,$2B
+China,Jiangsu,$2B
+China,Hangzhou,$2B
+China,Shanghai,$2B
+China,Shanghai,$2B
+China,Shanghai,$2B
+China,Beijing,$2B
+China,Shanghai,$2B
+China,Shanghai,$2B
+China,Beijing,$2B
+Israel,"Tel Aviv",$2B
+India,Gurgaon,$2B
+"South Africa",Bryanston,$2B
+China,Shenzhen,$2B
+China,Shanghai,$2B
+China,Shenzhen,$2B
+India,Bengaluru,$2B
+Singapore,,$2B
+China,Shanghai,$2B
+Thailand,Bangkok,$2B
+India,Pune,$2B
+Israel,"Tel Aviv",$2B
+Israel,Herzliya,$2B
+China,Beijing,$2B
+India,Bengaluru,$2B
+China,Hunan,$2B
+China,Changzhou,$2B
+China,Hangzhou,$2B
+Japan,Tokyo,$2B
+China,Chongqing,$2B
+Israel,"Tel Aviv",$2B
+"South Korea",Seoul,$2B
+China,Shanghai,$2B
+Malaysia,Selangor,$2B
+India,Bengaluru,$2B
+Vietnam,"Ho Chi Minh City",$2B
+India,Gurugram,$2B
+China,Shanghai,$2B
+China,Beijing,$2B
+"South Korea",Seoul,$2B
+Israel,Jerusalem,$2B
+China,Shanghai,$2B
+China,Shanghai,$2B
+India,Bangalore,$2B
+India,Pune,$2B
+India,Gurgaon,$2B
+India,Bengaluru,$22B
+Indonesia,Jakarta,$20B
+China,Shanghai,$20B
+China,Chongqing,$1B
+China,Beijing,$1B
+China,Beijing,$1B
+China,Shanghai,$1B
+China,Suzhou,$1B
+China,Shenzhen,$1B
+China,Shanghai,$1B
+Indonesia,Jakarta,$1B
+China,Beijing,$1B
+"Hong Kong",,$1B
+India,Bengaluru,$1B
+China,Shanghai,$1B
+China,Hangzhou,$1B
+China,Shanghai,$1B
+"South Korea",Seongnam-Si,$1B
+China,Wuxi,$1B
+India,Chennai,$1B
+China,Shanghai,$1B
+China,Shanghai,$1B
+China,Nanjing,$1B
+China,Beijing,$1B
+China,Shanghai,$1B
+China,Beijing,$1B
+China,Shanghai,$1B
+China,Beijing,$1B
+China,Chengdu,$1B
+China,Shanghai,$1B
+China,Tianjin,$1B
+China,Shanghai,$1B
+India,Gurugram,$1B
+China,Beijing,$1B
+China,Shanghai,$1B
+China,Beijing,$1B
+China,Hangzhou,$1B
+China,Guiyang,$1B
+India,"New Delhi",$1B
+China,Beijing,$1B
+China,Guangzhou,$1B
+China,Beijing,$1B
+China,Hangzhou,$1B
+China,Hangzhou,$1B
+China,Changsha,$1B
+China,Guangzhou,$1B
+China,Beijing,$1B
+China,Shenzhen,$1B
+China,Shanghai,$1B
+China,Shanghai,$1B
+China,Hefei,$1B
+China,Shanghai,$1B
+China,Beijing,$1B
+China,Wuhan,$1B
+China,Beijing,$1B
+Israel,Giv'atayim,$1B
+China,Hangzhou,$1B
+China,Beijing,$1B
+India,Bengaluru,$1B
+China,Hangzhou,$1B
+China,Hangzhou,$1B
+China,Shanghai,$1B
+China,Beijing,$1B
+China,Beijing,$1B
+China,Shanghai,$1B
+China,Shanghai,$1B
+China,Shenzhen,$1B
+China,Shanghai,$1B
+Israel,"Tel Aviv",$1B
+India,Chennai,$1B
+China,Beijing,$1B
+India,Gurugram,$1B
+India,Pune,$1B
+China,Beijing,$1B
+"Hong Kong",Central,$1B
+China,Guangzhou,$1B
+"South Korea",Seoul,$1B
+"South Korea",Seoul,$1B
+China,Hangzhou,$1B
+China,Beijing,$1B
+Israel,"Tirat Carmel",$1B
+China,Shanghai,$1B
+China,Beijing,$1B
+China,Beijing,$1B
+Japan,Tsuruoka,$1B
+India,Jaipur,$1B
+India,Bengaluru,$1B
+India,Mumbai,$1B
+China,Shenzhen,$1B
+India,Mumbai,$1B
+India,Pune,$1B
+"South Korea",Seoul,$1B
+India,Bengaluru,$1B
+China,Beijing,$1B
+China,Shanghai,$1B
+China,Qingdao,$1B
+India,Bengaluru,$1B
+India,Bengaluru,$1B
+Singapore,,$1B
+India,Maharashtra,$1B
+China,Shanghai,$1B
+India,"New Delhi",$1B
+China,Wuhan,$1B
+India,Andheri,$1B
+China,Beijing,$1B
+India,Gurgaon,$1B
+India,Gurgaon,$1B
+"South Korea",Jeju-do,$1B
+China,Beijing,$1B
+Singapore,,$1B
+Israel,Jerusalem,$1B
+China,Hangzhou,$1B
+China,Hangzhou,$1B
+China,Beijing,$1B
+China,Beijing,$1B
+Indonesia,Jakarta,$1B
+India,Bengaluru,$1B
+Israel,"Ramat Gan",$1B
+China,Shanghai,$1B
+China,Hangzhou,$1B
+India,Bengaluru,$1B
+Singapore,,$1B
+Israel,"Tel Aviv",$1B
+Singapore,,$1B
+"Hong Kong",,$1B
+India,Hyderabad,$1B
+China,Shanghai,$1B
+Israel,Ra'anana,$1B
+China,Hangzhou,$1B
+China,Shenzhen,$1B
+"United Arab Emirates",Dubai,$1B
+China,Chengdu,$1B
+Thailand,Bangkok,$1B
+China,Beijing,$1B
+India,Mumbai,$1B
+China,Beijing,$1B
+China,Beijing,$1B
+Israel,"Tel Aviv",$1B
+China,Beijing,$1B
+India,Bengaluru,$1B
+China,Shanghai,$1B
+China,Beijing,$1B
+China,Shenzhen,$1B
+China,Shenzhen,$1B
+Israel,"Tel Aviv",$1B
+"United Arab Emirates",Dubai,$1B
+China,Beijing,$1B
+Indonesia,Jakarta,$1B
+China,Shenzhen,$1B
+India,Bengaluru,$1B
+China,Beijing,$1B
+China,Beijing,$1B
+India,Bengaluru,$1B
+China,Beijing,$1B
+China,Beijing,$1B
+China,Beijing,$1B
+China,Beijing,$1B
+China,Beijing,$1B
+Singapore,,$1B
+India,Bengaluru,$1B
+Singapore,,$1B
+China,Shenzhen,$1B
+Singapore,,$1B
+Israel,"Petah Tikva",$1B
+Japan,Tokyo,$1B
+China,Shanghai,$1B
+Philippines,Manila,$1B
+China,Beijing,$180B
+China,Beijing,$17B
+China,Beijing,$15B
+China,Beijing,$12B
+China,Changsha,$12B
+China,Shanghai,$11B
+India,Bengaluru,$11B
+China,Luohe,$11B
+"Hong Kong","Cheung Sha Wan",$10B
+China,Beijing,$10B
+India,Gurugram,$10B
+China,Beijing,$10B
+China,Shenzhen,$100B
